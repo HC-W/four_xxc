@@ -1,0 +1,41 @@
+/* pages/mine/zhuce/zhuce.wxss */
+view{
+  text-align: center;
+}
+.txt{
+  display: block;
+  font-size: 20px;
+  color: #0DC52E;
+  padding: 20px 0;
+}
+form{
+  width: 100%;
+}
+form input{
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 13px;
+}
+.inp{
+  border: 1px solid #BAB7B3;
+}
+form input:nth-child(1){
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+form input:nth-child(3){
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.btn{
+  width: 90%;
+  background-color: #0DC52E;
+  text-align: center;
+  color: white;
+  margin: 20px auto; 
+}

@@ -1,0 +1,22 @@
+<!--components/bang/bang.wxml-->
+<view class='bangpu'>
+  <block wx:for="{{bangobj}}" wx:key="item">
+    <block wx:if="{{item.isshow}}" wx:key="item">
+      <view class='bangfen' wx:key="item" bindtap='juti' data-ind="{{item.id}}">
+        <image src="{{item.url}}" class='bangimg'></image>
+        <view class='bangtext'>
+          <block wx:for="{{item.obj}}" wx:key="item" wx:for-item="objItem" wx:if="{{index<3}}">
+            <text class='bangonce'>
+              <text class='bangid'>{{index+1}}.</text>
+              <text class='bangtitle'>{{objItem.title}}</text>
+              <text class='bangrate'>{{objItem.rate}}分</text>
+            </text>
+          </block>
+        </view>
+      </view>
+    </block>
+    <block wx:elif="{{!item.isshow}}">
+      <image src="{{item.url}}" class='bangimg2' bindtap='juti' wx:key="item" data-ind="{{item.id}}"></image>
+    </block>
+  </block>
+</view>

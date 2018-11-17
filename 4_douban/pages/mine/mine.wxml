@@ -1,0 +1,34 @@
+<!--pages/mine/mine.wxml-->
+
+<block wx:if="{{isDeng==false}}">
+<view class='bg'>
+  <view class='top'>
+    <view class='login' bindtap='jumpLogin'>
+      <image src='../../images/login.png' class='img'></image>
+      登录
+    </view>
+  </view>
+  <view class='user'>
+    <image src='../../images/user.png' class='touxiang'></image>
+    <text class='nologin'>未登录</text>
+  </view>
+  </view>
+</block>
+<block wx:elif="{{isDeng==true}}">
+<view class='bg'>
+  <view class='user'>
+    <image src='../../images/user.png' class='touxiang'></image>
+    <text class='nologin'>{{uu}}</text>
+  </view>
+   </view>
+  <view class='everyone'>
+    <text class='exit'bindtap="exit">退出</text>
+    <text type='primary' class='update' bindtap='modalinput'>更改昵称</text>
+    <modal hidden="{{hiddenmodalput}}" title="请输入昵称" confirm-text="提交" cancel-text="重置" bindcancel="cancel" bindconfirm="confirm">
+    <input type='text'placeholder="重置昵称" auto-focus bindinput='nc' value='{{chongzhi}}'/>
+    </modal>
+  </view>
+   
+  </block>
+
+

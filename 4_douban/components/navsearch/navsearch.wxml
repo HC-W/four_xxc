@@ -1,0 +1,9 @@
+<!--components/navsearch/navsearch.wxml-->
+  <view class='{{navTitle}}'>
+    <view class='{{navSearch}}{{two}}' bindtap='jumpFn'>
+      <icon type='search' size='15' class='{{icn}}'></icon>
+      <input placeholder='搜索'  class='{{search}}{{three}}'></input>
+    </view>
+    <!-- 使用一个bool值对跳转界面显示的数值进行判定 -->
+    <text wx:if="{{isjump}}" class='quxiao' bindtap='quxiao'>取消</text>
+  </view>

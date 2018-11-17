@@ -1,0 +1,32 @@
+/* pages/index/index.wxss */
+/* .navTitle{
+  background-color: #0DC52E;
+  padding: 0px 0 8px;
+}
+.navSearch{
+  width: 95%;
+  height: 25px;
+  margin: 0px auto;
+  background-color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+.pianming{
+  width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+}
+.fenshu{
+  font-size: 11px;
+  color: gray;
+}

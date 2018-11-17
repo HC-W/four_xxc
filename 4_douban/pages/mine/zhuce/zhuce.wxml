@@ -1,0 +1,10 @@
+<!--pages/mine/zhuce/zhuce.wxml-->
+<view>
+<text class='txt'>欢迎来到豆瓣</text>
+  <form bindsubmit='formsubmit'>
+    <input placeholder='昵称' class='inp' bindblur='uName'></input>
+    <input password placeholder='密码' class='inp' bindblur='psd'></input>
+    <input placeholder='手机号' class='inp' bindblur='phone' icon="{{icon}}"></input>
+    <button form-type='submit' class='btn'>注册</button>
+  </form>
+</view>

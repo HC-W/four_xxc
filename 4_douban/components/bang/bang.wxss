@@ -1,0 +1,40 @@
+/* components/bang/bang.wxss */
+.bangpu{
+  width: 100%;
+}
+
+.bangfen{
+  width: 100%;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.bangimg{
+  width: 30%;
+  height: 95px;
+}
+.bangimg2{
+  width: 100%;
+  height: 130px;
+}
+.bangtext{
+  width: 70%;
+  height: 82%;
+  font-size: 12px;
+  border: 2px solid #EAEAEA;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+}
+.bangonce{
+  margin-left: 10px;
+  display: block;
+}
+.bangtitle{
+  margin: 0 5px;
+}
+.bangrate{
+  color:#F8C31B;
+}

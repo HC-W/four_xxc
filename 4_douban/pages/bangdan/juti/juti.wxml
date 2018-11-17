@@ -1,0 +1,36 @@
+<!--pages/bangdan/juti/juti.wxml-->
+<!-- 整个页面 -->
+<view class='bangJump'>
+<!-- 上面的大图像 -->
+  <image src='{{neiobjj}}' class='topimg'></image>
+  <!-- 底下的电影介绍 -->
+  <view class='bangJumpPu'>
+  <!-- 个人 -->
+    <view class='bangJumpPuTitle'>
+    <!-- 个人头像 -->
+      <image class='userTouxiang' src='../../../images/touxiang.png'></image>
+      <text class='userLooking'>看过0部/共250部</text>
+    </view>
+    <!-- 循环生成影片介绍 -->
+    <view wx:for="{{dtt}}" wx:key="item" class='bangJumpAll'>
+      
+      <!-- 榜单排序 -->
+        <text class='paiming'>{{item.id}}</text>
+        <view class='jieshao'>
+        <!-- 影图 -->
+          <image src='{{item.src}}' class='tupian'></image>
+          <!-- 影片介绍 -->
+          <view class='right'>
+            <view class='movieNews'>
+              <text class='movieName'>{{item.title}}</text>
+              <text class='looked'>看过</text>
+            </view>
+            <text class='score'>{{item.rate}}</text>
+            <text class='leixing'>{{item.type}}</text>
+            <text class='xiwang'>{{item.name}}</text>
+          </view>
+        </view>
+      
+    </view>
+  </view>
+</view>

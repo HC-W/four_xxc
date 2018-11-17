@@ -1,0 +1,17 @@
+<!--pages/index/more/more.wxml-->
+<view>
+<!-- 搜索 -->
+<se bindjump="jumpSearch" nav-title="navTitle" nav-search="navSearch" search="search" isjump="{{isjump}}"></se>
+<!-- 页面铺设 -->
+<view class='moreAll'>
+  <block wx:for="{{dataobj[ind-1].data}}">
+    <view class='moreOne'>
+      <image wx:if="{{item.cover}}" src='{{item.cover}}' class='moreImg'></image>
+      <image wx:if="{{item.images}}" src='{{item.images.small}}' class='moreImg'></image>
+      <text class='moreTitle'>{{item.title}}</text>
+      <text wx:if="{{item.cover}}" class='moreRate'>{{item.rate}}</text>
+      <text wx:if="{{item.images}}" class='moreRate'>{{item.rating.average}}</text>
+    </view>
+  </block>
+</view>
+</view>

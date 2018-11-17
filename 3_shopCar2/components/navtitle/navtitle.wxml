@@ -1,0 +1,4 @@
+<!--components/navtitle/navtitle.wxml-->
+<view>
+  <text wx:for="{{titleChoose}}" class='navtitle' bindtap='choseFn' data-ind="{{item.id}}">{{item.title}}</text>
+</view>

@@ -1,0 +1,4 @@
+<!--pages/index/search/search.wxml-->
+<view>
+  <se bindjump="jumpSearch" nav-title="navTitle" two="two" three="three" icn="icn" isjump="{{isjump}}" bindquxiao="quxiao"></se>
+</view>

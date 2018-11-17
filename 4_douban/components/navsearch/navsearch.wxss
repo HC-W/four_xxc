@@ -1,0 +1,48 @@
+/* components/navsearch/navsearch.wxss */
+.navTitle{
+  background-color: #0DC52E;
+  padding: 0px 10px 8px;
+  /* 对搜索跳转界面的设置 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.navSearch{
+  width: 100%;
+  height: 25px;
+  margin: 0px auto;
+  background-color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search{
+  width: 25px;
+}
+/* 搜索跳转过后的view */
+.two{
+  width: 80%;
+  height: 25px;
+  background-color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  color: gainsboro;
+  display: flex;
+  align-items: center;
+}
+/* 搜索图标 */
+.icn{
+  margin: auto 10px;
+}
+/* input的宽度 */
+.three{
+  width: auto;
+}
+/* 取消   文字 */
+.quxiao{
+  color: white;
+  font-size: 13px;
+}

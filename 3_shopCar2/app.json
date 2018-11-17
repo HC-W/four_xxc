@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "商城",
+    "navigationBarTextStyle": "black"
+    
+  },
+  "tabBar": {
+    "selectedColor": "red",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/pinmore_zhugray.png",
+      "selectedIconPath": "images/pinmore_zhured.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "购物车",
+      "iconPath": "images/pinmore_shopgray.png",
+      "selectedIconPath": "images/pinmore_shopred.png"
+    }]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "bang":"../../components/bang/bang"
+  }
+}

@@ -1,0 +1,4 @@
+<!--pages/bangdan/bangdan.wxml-->
+<view class='bangWrap'>
+  <bang bangobj="{{bangobj}}" bindjuti="juti" data-url="{{bangobj[a].url}}" data-dt="{{bangobj[a].obj}}"></bang>
+</view>

@@ -1,0 +1,5 @@
+/* components/navtitle/navtitle.wxss */
+.navtitle{
+  display: inline-block;
+  margin: 5px 10px;
+}

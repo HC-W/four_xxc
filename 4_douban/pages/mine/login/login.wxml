@@ -1,0 +1,12 @@
+<!--pages/mine/login/login.wxml-->
+
+<view>
+<text class='txt'>欢迎来到豆瓣</text>
+  <form bindsubmit='formsubmit'>
+    <input name="input" placeholder='邮箱/手机号/用户名' class='inp' bindblur='uName'></input>
+    <input name="input" password placeholder='密码' class='inp' bindblur='psd'></input>
+    <button form-type='submit' class='btn'>登录</button>
+    <text class='zhuce' bindtap='zhuce'>注册豆瓣账号</text>
+  </form>
+</view>
+

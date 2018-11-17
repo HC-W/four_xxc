@@ -1,0 +1,31 @@
+<!--pages/index/index.wxml-->
+<view>
+<!-- 添加组件，搜索栏 -->
+  <se bindjump="jumpSearch" nav-title="navTitle" nav-search="navSearch" search="search" isjump="{{isjump}}"></se>
+  <!-- 头部字样 -->
+  <block  wx:for="{{isobj}}" wx:key="item">
+  <wrap arrtitle="{{arr[index].title}}" arrmore="{{arr[index].more}}" bindmore="more" arrid="{{arr[index].id}}"></wrap>
+  <!-- 影片图片 -->
+  <view class='wrapall'>
+      <movable-area style="width:100%;height:150px">
+        <movable-view style='width:200%' direction="horizontal" class='flex'>
+            <view class='imgsall'  wx:for="{{7}}" wx:for-item="city">
+            <!-- 图片 -->
+            <block wx:if="{{item.id%2==0}}">
+              <image src='{{item.data[index].cover}}' style='width:80px;height:120px'></image>
+              <!-- 影评文字 -->
+              <text style='display:block' class='pianming'>{{item.data[index].title}}</text>
+              <text style='display:block' class='fenshu'>{{item.data[index].rate}}</text>
+              </block>
+              <block wx:else>
+                <image src='{{item.data[index].images.small}}' style='width:80px;height:120px'></image>
+              <!-- 影评文字 -->
+              <text style='display:block' class='pianming'>{{item.data[index].title}}</text>
+              <text style='display:block' class='fenshu'>{{item.data[index].rating.average}}</text>
+              </block>
+            </view>
+        </movable-view>
+      </movable-area>
+  </view>
+  </block>
+</view>

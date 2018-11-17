@@ -1,0 +1,26 @@
+<!--components/pu/pu.wxml-->
+<view>
+  
+    <!-- <block wx:for="{{arr}}"> -->
+    <view class='content'>
+    <view class='top'>
+      <text class='biaoti'>{{arrtitle}}</text>
+      <text class='more' bindtap='more' data-ind="{{arrid}}">{{arrmore}}</text>
+    </view>
+    <!-- <view class='wrapall'>
+      <movable-area style="width:100%;height:200px">
+        <movable-view style='width:200%;height:200px' direction="all" class='flex'>
+            <view class='imgsall'  wx:for="{{7}}" wx:for-item="city">
+            <!-- 图片 -->
+              <!-- <image src='{{imgsrc}}' style='width:80px;height:120px'></image> -->
+              <!-- 影评文字 -->
+              <!-- <text style='display:block'>hahah</text> -->
+            <!-- </view> -->
+        <!-- </movable-view> -->
+      <!-- </movable-area> -->
+  <!-- </view> -->
+    
+  </view>
+    <!-- </block> -->
+    
+</view>

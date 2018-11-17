@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<view>
+  <nt titleChoose="{{obj}}" bindclick="click"></nt>
+</view>

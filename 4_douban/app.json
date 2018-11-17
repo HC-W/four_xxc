@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/search/search",
+    "pages/mine/login/login",
+    "pages/mine/mine",
+    "pages/mine/zhuce/zhuce",
+    "pages/bangdan/bangdan",
+    "pages/bangdan/juti/juti",
+    "pages/index/more/more"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0DC52E",
+    "navigationBarTitleText": "豆瓣评分",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "white",
+    "selectedColor": "#0DC52E",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "影视",
+        "iconPath": "images/moviegray.png",
+        "selectedIconPath": "images/moviegreen.png"
+      },
+      {
+        "pagePath": "pages/bangdan/bangdan",
+        "text": "榜单",
+        "iconPath": "images/banggray.png",
+        "selectedIconPath": "images/banggreen.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/megray.png",
+        "selectedIconPath": "images/megreen.png"
+      }
+    ]
+  }
+}

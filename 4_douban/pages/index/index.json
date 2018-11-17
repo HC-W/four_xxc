@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "se":"../../components/navsearch/navsearch",
+    "wrap":"../../components/pu/pu"
+  }
+}

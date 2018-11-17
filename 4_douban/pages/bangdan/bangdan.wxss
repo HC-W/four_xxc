@@ -1,0 +1,5 @@
+/* pages/bangdan/bangdan.wxss */
+.bangWrap{
+  width: 95%;
+  margin: 10px auto; 
+}
