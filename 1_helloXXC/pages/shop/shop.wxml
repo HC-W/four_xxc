@@ -1,0 +1,21 @@
+<!--pages/shop/shop.wxml-->
+<!-- <text>pages/shop/shop.wxml</text> -->
+<!-- 遍历对象，index是key,item是value -->
+<!-- 遍历数组，index是下标，item是数组元素 -->
+<!-- <view wx:for="{{array}}">{{item+index}}</view> -->
+<!-- <text wx:for="{{array}}">{{item+index}}</text> -->
+
+<!-- <view>{{text}}</view>
+<button bindtap="changeText"> Change normal data </button>
+<view>{{num}}</view>
+<button bindtap="changeNum"> Change normal num </button>
+<view>{{array[0].text}}</view>
+<button bindtap="changeItemInArray"> Change Array data </button>
+<view>{{object.text}}</view>
+<button bindtap="changeItemInObject"> Change Object data </button>
+<view>{{newField.text}}</view>
+<button bindtap="addNewField"> Add new data </button>-->
+<!-- 点击增加事件 -->
+<!--<view bindtap='add'>{{count}}</view> -->
+
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>

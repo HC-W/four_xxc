@@ -1,0 +1,4 @@
+/* pages/doubledata/doubledata.wxss */
+.i{
+  border: 1px solid red;
+}

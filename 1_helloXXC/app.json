@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/pinmore/pinmore",
+    "pages/exercise/exercise",
+    "pages/shop/shop",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/doubledata/doubledata",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "拼多多",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#E02E24",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/pinmore/pinmore",
+        "iconPath": "images/pinmore_zhugray.png",
+        "selectedIconPath": "images/pinmore_zhured.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "images/pinmore_shargray.png",
+        "selectedIconPath": "images/pinmore_sharred.png",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/doubledata/doubledata",
+        "iconPath": "images/pinmore_fangdajingGray.png",
+        "selectedIconPath": "images/pinmore_fangdajingRed.png",
+        "text": "双向数据绑定"
+      },
+      {
+        "pagePath": "pages/exercise/exercise",
+        "iconPath": "images/pinmore_newsgray.png",
+        "selectedIconPath": "images/pinmore_newsred.png",
+        "text": "练习"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/pinmore_usergray.png",
+        "selectedIconPath": "images/pinmore_userred.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+<!--pages/exercise/exercise.wxml-->
+<!-- <text>pages/exercise/exercise.wxml</text> -->
+<!-- <button style='color:{{color}}' bindtap='changeColor'>{{world}}</button>
+<view bindtap='changeColor2' style='color:{{color2}}'>{{world}}</view> -->
+<view>
+<text style='color:{{color}}' bindtap='changeColor'>{{world}}</text>
+<button style='color:{{color2}}' bindtap='changeColor2'>{{world}}</button>
+</view>

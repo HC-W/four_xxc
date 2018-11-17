@@ -1,0 +1,4 @@
+/* pages/liangong/liangong.wxss */
+.aaa{
+  color:red;
+}

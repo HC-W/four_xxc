@@ -1,0 +1,39 @@
+/* components/fruits/fruits.wxss */
+.fruitItem{
+  border-bottom: 1px solid gray;
+  padding: 3px 0;
+  position: relative;
+  overflow: hidden
+}
+.fruitImg{
+  float:left;
+}
+.fruitImg .img{
+  width: 80px;
+  height: 80px;
+}
+.fruitText{
+  float: left;
+  width: 200px;
+  margin-left: 5px;
+}
+.fruitText text{
+  width: 100%;
+  display: inline-block;
+}
+.fruitText text:nth-child(2){
+  color: orange;
+  margin-top: 10px;
+}
+.fruitText text:nth-child(3){
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.iconImg{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}

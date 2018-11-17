@@ -1,0 +1,6 @@
+<!--pages/liangong/liangong.wxml-->
+<!-- <text>pages/liangong/liangong.wxml</text> -->
+<view>
+<view bindtap='clickFn'>{{wugong}}</view>
+  <text name="{{ind}}" class='{{myClass}}' selectable='{{isSel}}' >{{personOne}}传授{{personTwo}}最厉害的{{wugong}}</text>
+</view>

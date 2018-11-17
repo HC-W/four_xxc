@@ -1,0 +1,16 @@
+<!--pages/doubledata/doubledata.wxml-->
+<!-- <text>pages/doubledata/doubledata.wxml</text> -->
+<!-- <view>
+<input class='i' value='{{content}}' bindinput='changeVal'></input>
+<input class='i' value='{{content}}' bindinput='changeVal'></input>
+</view> -->
+
+<template name="staffName">
+  <view>
+    FirstName: {{firstName}}, LastName: {{lastName}}
+  </view>
+</template>
+
+<template is="staffName" data="{{...staffA}}"></template>
+<template is="staffName" data="{{...staffB}}"></template>
+<template is="staffName" data="{{...staffC}}"></template>

@@ -1,0 +1,18 @@
+<!--components/fruits/fruits.wxml-->
+<!-- <text>components/fruits/fruits.wxml</text> -->
+<view>
+  <view wx:for="{{dataObj}}" wx:key="item"  class='fruitItem'>
+  <!-- 图片 -->
+    <view class='fruitImg'>
+      <image src="{{item.imgPath}}" class='img'></image>
+    </view>
+    <!-- 右边文字 -->
+    <view class='fruitText'>
+      <text>{{item.title}}</text>
+      <text>{{item.detail}}</text>
+      <text>{{item.price}}元</text>
+      <image wx:if="{{item.flag}}" src='../../images/shopcar.png' class='iconImg' bindtap='clickFn' data-ind="{{item.id}}"></image>
+      <image wx:else src='../../images/shopcarr.png' class='iconImg' bindtap='clickFn' data-ind="{{item.id}}"></image>
+      </view>
+    </view>
+</view>
